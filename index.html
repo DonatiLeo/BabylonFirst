@@ -79,7 +79,7 @@
                 var ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 6, height: 6 }, scene);
                 // Classicla Babylon Yeti Model
                 BABYLON.SceneLoader.ImportMesh("", Assets.meshes.Yeti.rootUrl, Assets.meshes.Yeti.filename, scene, function (newMeshes) {
-                    newMeshes[0].scaling = new BABYLON.Vector3(0.1, 0.1, 0.1);
+                    newMeshes[0].scaling = new BABYLON.Vector3(0.2, 0.2, 0.2);
                 });
                 return scene;
             }
